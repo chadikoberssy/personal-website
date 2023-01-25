@@ -1,0 +1,28 @@
+.movies {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #fdfdfc;
+}
+
+.movies-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.movies-content-item {
+  flex-basis: 200px;
+  font-family: 'Cormorant-Garamond';
+  color: #444444;
+}
+
+.movies-content-item h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.movies-content-item p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 70px;
+}

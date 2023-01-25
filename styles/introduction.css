@@ -1,0 +1,36 @@
+.introduction {
+  background-color: #faf9f6;
+  padding: 0 0 50px 0;
+  font-family: "Cormorant-Garamond";
+}
+
+.introduction-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+}
+
+.introduction-image img {
+  width: 500px;
+  height: auto;
+  border-radius: 25% 0;
+}
+
+.introduction-text {
+  flex-basis: 500px;
+}
+
+.introduction-text-title {
+  font-size: 63px;
+  font-weight: normal;
+  color: #eb3f26;
+  margin-bottom: 30px;
+}
+
+.introduction-text-description {
+  font-size: 18px;
+  color: #444444;
+  line-height: 30px;
+  margin-bottom: 50px;
+}

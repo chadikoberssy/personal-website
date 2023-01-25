@@ -1,0 +1,84 @@
+.tourism {
+  background-color: #faf9f6;
+  padding: 0 0 100px 0;
+  font-family: 'Cormorant-Garamond';
+}
+
+.tourism-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.tourism-left,
+.tourism-right {
+  flex: 1 1 50%;
+}
+
+.tourism-left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tourism-left-item {
+  flex: 1 1 45%;
+  border-radius: 50px 0;
+  overflow: hidden;
+  background-color: #fdfdfc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 300ms;
+}
+
+.tourism-left-item:hover {
+  transform: scale(1.03);
+}
+
+.tourism-left-item-image {
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tourism-left-item-image#leaning-tower {
+  background-image: url('../../images/travel-bucketlist/leaning-tower.jpg');
+}
+
+.tourism-left-item-image#liberty-statue {
+  background-image: url('../../images/travel-bucketlist/statue-of-liberty.jpeg');
+}
+
+.tourism-left-item-image#collosseum {
+  background-image: url('../../images/travel-bucketlist/colosseum.jpeg');
+}
+
+.tourism-left-item-image#pyramids {
+  background-image: url('../../images/travel-bucketlist/pyramids.jpeg');
+}
+
+.tourism-left-item-text {
+  padding: 20px;
+  color: #444444;
+}
+
+.tourism-left-item-text h3 {
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.tourism-right h1 {
+  font-size: 63px;
+  font-weight: normal;
+  color: #eb3f26;
+  margin-bottom: 30px;
+}
+
+.tourism-right p {
+  font-size: 18px;
+  color: #444444;
+  line-height: 30px;
+  margin-bottom: 50px;
+}

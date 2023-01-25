@@ -1,0 +1,30 @@
+.todolist {
+  background-color: #faf9f6;
+  padding: 80px 0 180px 0;
+}
+
+.todolist-content {
+  padding: 50px 50px 100px 50px;
+  background-color: #fdfdfc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 100px 0;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.todolist-title {
+  text-align: center;
+  border-bottom: 2px solid #444444;
+  margin-bottom: 25px;
+}
+
+.todolist-row {
+  padding: 25px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.todolist-row p {
+  color: #444444;
+  font-size: 24px;
+  font-family: 'Cormorant-Garamond';
+}

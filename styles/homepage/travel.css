@@ -1,0 +1,25 @@
+.travel {
+  background-color: #faf9f6;
+  padding: 100px 0;
+}
+
+.travel-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.travel-content-text p {
+  font-family: 'Cormorant-Garamond';
+  font-size: 18px;
+  color: #444444;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.travel-content-image img {
+  width: 500px;
+  height: auto;
+  border-radius: 25% 0;
+}

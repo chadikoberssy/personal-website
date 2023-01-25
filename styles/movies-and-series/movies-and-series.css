@@ -1,0 +1,15 @@
+.top-movies,
+.top-series,
+.top-games {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.top-movies,
+.top-games {
+  background-color: #faf9f6;
+}
+
+.top-series {
+  background-color: #fdfdfc;
+}

@@ -1,0 +1,25 @@
+.todo {
+  background-color: #fdfdfc;
+  padding: 100px 0;
+}
+
+.todo-box {
+  background-color: #EB3F26;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fdfdfc;
+}
+
+.todo-text h3 {
+  font-size: 25px;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.todo-text p {
+  font-family: 'Cormorant-Garamond';
+  font-size: 18px;
+}

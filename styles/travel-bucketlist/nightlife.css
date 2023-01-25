@@ -1,0 +1,55 @@
+.nightlife {
+  background-color: #fdfdfc;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.nightlife-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.nightlife-item {
+  flex: 1 1 30%;
+  border-radius: 50px 0;
+  overflow: hidden;
+  background-color: #faf9f6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 300ms;
+  font-family: 'Cormorant-Garamond';
+}
+
+.nightlife-item:hover {
+  transform: scale(1.03);
+}
+
+.nightlife-item-image {
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nightlife-item-image#las-vegas {
+  background-image: url('../../images/travel-bucketlist/las-vegas.jpeg');
+}
+
+.nightlife-item-image#amesterdam {
+  background-image: url('../../images/travel-bucketlist/amesterdam.jpeg');
+}
+
+.nightlife-item-image#prague {
+  background-image: url('../../images/travel-bucketlist/prague.jpeg');
+}
+
+.nightlife-item-text {
+  padding: 20px;
+  color: #444444;
+}
+
+.nightlife-item-text h3 {
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 10px;
+}

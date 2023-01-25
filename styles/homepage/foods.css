@@ -1,0 +1,22 @@
+.food {
+  background-image: url("../../images/homepage/homepage-food-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.food-content {
+  background: rgba(253, 253, 252, 0.9);
+  padding: 50px 50px 70px 50px;
+  border-radius: 100px 0;
+}
+
+.food-text p {
+  font-family: 'Cormorant-Garamond';
+  font-size: 18px;
+  color: #444444;
+  line-height: 30px;
+  margin-bottom: 70px;
+}

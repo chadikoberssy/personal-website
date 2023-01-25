@@ -1,0 +1,32 @@
+.footer {
+  background-color: #444444;
+  padding: 50px 0 20px 0;
+  text-align: center;
+}
+
+.contact-info {
+  margin-bottom: 30px;
+}
+
+.contact-info p {
+  font-family: 'Cormorant-Garamond';
+  font-size: 18px;
+  color: #fdfdfc;
+}
+
+.contact-info a {
+  font-size: 24px;
+  margin: 0 5px;
+  color: #fdfdfc;
+  transition: all 300ms;
+}
+
+.contact-info a:hover {
+  color: #EB3F26;
+}
+
+.copyright p {
+  font-family: 'Cormorant-Garamond';
+  font-size: 14px;
+  color: #fdfdfc;
+}

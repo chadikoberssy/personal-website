@@ -1,0 +1,36 @@
+.hero {
+  background-color: #faf9f6;
+  padding: 0 0 50px 0;
+  font-family: "Cormorant-Garamond";
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+}
+
+.hero-image img {
+  width: 500px;
+  height: auto;
+  border-radius: 25% 0;
+}
+
+.hero-text {
+  flex-basis: 500px;
+}
+
+.hero-text-title {
+  font-size: 63px;
+  font-weight: normal;
+  color: #EB3F26;
+  margin-bottom: 30px;
+}
+
+.hero-text-description {
+  font-size: 18px;
+  color: #444444;
+  line-height: 30px;
+  margin-bottom: 50px;
+}

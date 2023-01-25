@@ -1,0 +1,22 @@
+.navbar {
+  font-family: "Cormorant-Garamond";
+  padding: 50px;
+  background-color: #faf9f6;
+}
+
+.navbar-content {
+  font-size: 18px;
+  text-align: center;
+}
+
+.navbar-link {
+  margin: 0 15px;
+  color: #444444;
+}
+
+.navbar-link:hover, 
+.active {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+

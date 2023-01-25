@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/static/Montserrat-Light.ttf")
+    format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Cormorant-Garamond";
+  src: url("../fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+  margin: 0;
+}
+
+h2 {
+  font-size: 40px;
+  color: #eb3f26;
+  font-family: "Montserrat";
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.button {
+  font-family: 'Cormorant-Garamond';
+  border: 1px solid #444444;
+  padding: 20px 30px;
+  color: #444444;
+  transition: all 300ms;
+}
+
+.button:hover {
+  background-color: #eeeeee;
+}
+
+.button-light {
+  font-family: 'Cormorant-Garamond';
+  border: 1px solid #fdfdfc;
+  padding: 20px 30px;
+  color: #fdfdfc;
+  transition: all 300ms;
+}
+
+.button-light:hover {
+  background-color: #fdfdfc;
+  color: #444444;
+}
